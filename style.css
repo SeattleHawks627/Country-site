@@ -1,0 +1,52 @@
+/*
+    selector {
+        property: value;
+        poroperty: value;
+        property: value;
+        etc.
+    }
+
+    Selector options::after
+
+    tag name, such as p or img
+    class name, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+
+*/
+
+.nav {
+    list-style: none;
+
+    border-style: dotted;
+
+    padding-left: 0%;
+
+    width: 33%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li{
+    border-style: ridge;
+
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 15%;
+    width: 75%;
+    height: 75%;
+}
+
+body{
+
+background-image: url(https://coolwallpapers.me/picsup/2809839-sunrise-winter-nature-forest-snow-landscape-trees-sun-rays-white-cold-sunlight-frost___landscape-nature-wallpapers.jpg);
+}
